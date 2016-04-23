@@ -8,6 +8,11 @@ var app = express ();
 var PORT = 8081; 	// set the port
 var staticContentFolder;
 
+// routing
+
+var apiRouting = require('./routes/apiRouting.js');
+var	htmlRouting = require('./routes/htmlRouting.js');
+
 //some basic config
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
