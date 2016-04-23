@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var path = require('path');
 
 var app = express ();
-var PORT = 8081; 	// set the port
+var PORT = 8080; 	// set the port
 var staticContentFolder;
 
 // routing
